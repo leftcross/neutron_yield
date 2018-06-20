@@ -1,0 +1,34 @@
+# verbosities
+/control/verbose 0 
+/run/verbose 0
+/tracking/verbose 0 
+/random/setSeeds 185 263
+#
+# draw flags
+#/damic/draw/drawColours custom
+#/damic/draw/gammaColour yellow
+#/damic/draw/drawTracks all
+#/damic/draw/drawHits 1
+#
+# file output
+/damic/saveHits 0
+#
+
+# gun: particle
+/damic/gun/verbose 0
+/damic/gun/energy 260 GeV
+/damic/gun/particle  mu-
+/damic/gun/depth 4.2 km
+/damic/gun/angtype iso
+#/damic/gun/direction 0 0 1
+
+# gun: source
+/damic/gun/type Volume
+/damic/gun/shape Cube
+/damic/gun/halfx 0.0 cm
+/damic/gun/halfy 0.0 cm
+/damic/gun/halfz 0.0 cm
+/damic/gun/centre 0 0 00  cm
+
+/damic/histogramfile muon
+/run/beamOn 20
